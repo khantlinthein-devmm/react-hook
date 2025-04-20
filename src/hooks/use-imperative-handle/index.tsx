@@ -13,6 +13,7 @@ export const ImperativeHandleExample = () => {
    )
 }
 
+// Child Component
 const CustomInput = forwardRef((props, ref) => {
 
    const inputRef = useRef();
